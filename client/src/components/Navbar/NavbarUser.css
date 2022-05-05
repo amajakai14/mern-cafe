@@ -1,0 +1,6 @@
+.nav-item:hover, :focus{
+    text-decoration: underline;
+    text-underline-offset: .25rem;
+    opacity: 1;
+
+}
