@@ -48,6 +48,7 @@ const Login = () => {
     },[formData.confirmPassword,checkPassword])
 
 
+    
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value.trim() }); 
         if(e.target.name !== "confirmPassword"){
